@@ -1,0 +1,978 @@
+﻿Log file open, 09/06/17 13:30:50
+LogInit:Display: Running engine for game: LIF_TG
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-689801542) SRandInit(-689801541).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.181816
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.06-18.30.50:678][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-18.30.50:678][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-18.30.50:718][  0]LogInit: Computer: ACDEC
+[2017.09.06-18.30.50:718][  0]LogInit: User: estebancarranza
+[2017.09.06-18.30.50:718][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.09.06-18.30.50:718][  0]LogInit: High frequency timer resolution =1.852018 MHz
+[2017.09.06-18.30.50:719][  0]LogMemory: Memory total: Physical=10.9GB (11GB approx)
+[2017.09.06-18.30.50:719][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-18.30.50:719][  0]LogMemory: Process Physical Memory: 188.75 MB used, 188.75 MB peak
+[2017.09.06-18.30.50:719][  0]LogMemory: Process Virtual Memory: 194.86 MB used, 194.86 MB peak
+[2017.09.06-18.30.50:719][  0]LogMemory: Physical Memory: 5244.41 MB used, 11210.26 MB total
+[2017.09.06-18.30.50:719][  0]LogMemory: Virtual Memory: 531.33 MB used, 134217728.00 MB total
+[2017.09.06-18.30.52:342][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-18.30.52:381][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R6 Graphics' (Feature Level 11_0)
+[2017.09.06-18.30.52:381][  0]LogD3D11RHI:       989/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.09.06-18.30.52:385][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.06-18.30.52:385][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.06-18.30.52:385][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-18.30.52:398][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-18.30.52:398][  0]LogD3D11RHI:     GPU DeviceId: 0x130a (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-18.30.52:399][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-18.30.52:399][  0]LogWindows:    0. 'AMD Radeon(TM) R6 Graphics' (P:1 D:1)
+[2017.09.06-18.30.52:400][  0]LogWindows:    1. 'AMD Radeon(TM) R6 Graphics' (P:0 D:1)
+[2017.09.06-18.30.52:401][  0]LogWindows:    2. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2017.09.06-18.30.52:402][  0]LogWindows:    3. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2017.09.06-18.30.52:403][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.06-18.30.52:403][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R6 Graphics
+[2017.09.06-18.30.52:403][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 16.12.2 (internal:21.19.407.0, unified:21.19.407.0)
+[2017.09.06-18.30.52:403][  0]LogD3D11RHI:      Driver Date: 12-23-2016
+[2017.09.06-18.30.52:403][  0]LogRHI: Texture pool is 692 MB (70% of 989 MB)
+[2017.09.06-18.30.52:432][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2017.09.06-18.30.52:463][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.09.06-18.30.52:464][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Intermediate/Shaders/WorkingDirectory/7200/).
+[2017.09.06-18.30.52:465][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ESTEBA~1.CAR/AppData/Local/Temp/UnrealShaderWorkingDir/A5C30F3944B4F09F03157795E61CCB6D/'.
+[2017.09.06-18.30.52:465][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.06-18.30.57:022][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-18.30.57:078][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-18.30.57:133][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-18.30.57:198][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-18.30.57:252][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-18.30.57:302][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-18.30.57:353][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-18.30.57:422][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-18.30.57:519][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-18.30.57:599][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-18.30.57:675][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-18.30.57:823][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-18.30.57:823][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-18.30.57:828][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-18.30.57:903][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.06-18.30.57:956][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-18.30.58:003][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-18.30.58:044][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-18.30.58:087][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-18.30.58:087][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.06-18.30.58:633][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.06-18.30.58:964][  0]LogDerivedDataCache: Loaded boot cache 0.33s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.09.06-18.30.58:968][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.09.06-18.30.58:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-18.30.58:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-18.30.58:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-18.30.58:969][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-18.30.59:048][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-18.30.59:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/esteban.carranza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-18.31.00:449][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-18.31.00:451][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-18.31.01:266][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.09.06-18.31.01:266][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.06-18.31.01:266][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.09.06-18.31.02:660][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2017.09.06-18.31.03:303][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.628139 seconds
+[2017.09.06-18.31.03:324][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.09.06-18.31.03:324][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.09.06-18.31.03:324][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-18.31.03:436][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-18.31.04:534][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-18.31.04:534][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-18.31.08:376][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-18.31.09:468][  0]SourceControl: Info Source control is disabled
+[2017.09.06-18.31.09:470][  0]SourceControl: Info Source control is disabled
+[2017.09.06-18.31.09:519][  0]SourceControl: Info Source control is disabled
+[2017.09.06-18.31.09:566][  0]SourceControl: Info Source control is disabled
+[2017.09.06-18.31.10:663][  0]LogEngine: Initializing Engine...
+[2017.09.06-18.31.10:668][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.09.06-18.31.10:671][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.09.06-18.31.11:187][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.09.06-18.31.11:198][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.06-18.31.11:230][  0]LogInit: FAudioDevice initialized.
+[2017.09.06-18.31.11:350][  0]LogDerivedDataCache: Saved boot cache 0.12s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.09.06-18.31.11:380][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-18.31.11:488][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-18.31.11:607][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-18.31.12:169][  0]LocalizationService: Info Localization service is disabled
+[2017.09.06-18.31.14:090][  0]LogConsoleResponse:Display: 
+[2017.09.06-18.31.14:397][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.09.06-18.31.14:397][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.06-18.31.14:702][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/' took 0.03s
+[2017.09.06-18.31.14:962][  0]SourceControl: Info Source control is disabled
+[2017.09.06-18.31.14:962][  0]Cmd: MAP LOAD FILE="../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-18.31.14:966][  0]LightingResults: New page: Lighting Build
+[2017.09.06-18.31.14:999][  0]MapCheck: New page: Map Check
+[2017.09.06-18.31.14:999][  0]LightingResults: New page: Lighting Build
+[2017.09.06-18.31.16:972][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.16:973][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:973][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.31.16:973][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.16:974][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:974][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.31.16:975][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.16:975][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:975][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.06-18.31.16:987][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.16:987][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:988][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.31.16:988][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.16:988][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:988][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.31.16:988][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.16:989][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.06-18.31.16:989][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.06-18.31.16:994][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.16:995][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:995][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.31.16:995][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.16:995][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:995][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.31.16:996][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.16:996][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:996][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.06-18.31.16:996][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.16:997][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:997][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.31.16:997][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.16:997][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:997][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.31.16:998][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.16:998][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.16:998][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.06-18.31.17:031][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.17:031][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.06-18.31.17:031][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.17:031][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.06-18.31.17:031][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.06-18.31.17:034][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.17:035][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.06-18.31.17:035][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.17:035][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.06-18.31.17:035][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.31.17:038][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.17:038][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.06-18.31.17:038][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.06-18.31.17:038][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.06-18.31.17:038][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.31.17:300][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.06-18.31.17:300][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.06-18.31.17:300][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading NULL.
+[2017.09.06-18.31.17:300][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.06-18.31.17:304][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.31.17:304][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.06-18.31.17:304][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
+[2017.09.06-18.31.17:305][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.06-18.31.17:305][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.31.17:305][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.06-18.31.17:306][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
+[2017.09.06-18.31.17:306][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.06-18.31.18:328][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2017.09.06-18.31.18:331][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-18.31.18:333][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-18.31.18:605][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 270.813ms to complete.
+[2017.09.06-18.31.18:605][  0]LogFileHelpers: Loading map 'Main_Menu' took 3.643
+[2017.09.06-18.31.18:850][  0]LogCollectionManager: Loaded 0 collections in 0.008340 seconds
+[2017.09.06-18.31.18:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Collections/' took 0.01s
+[2017.09.06-18.31.18:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Developers/estebancarranza/Collections/' took 0.01s
+[2017.09.06-18.31.18:930][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Collections/' took 0.01s
+[2017.09.06-18.31.18:931][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2017.09.06-18.31.18:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0478 seconds. Added 2047 classes and 369 folders.
+[2017.09.06-18.31.19:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-18.31.19:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-18.31.19:007][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0022 seconds. Added 12 classes and 0 folders.
+[2017.09.06-18.31.19:061][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.09.06-18.31.19:324][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.09.06-18.31.19:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.09.06-18.31.19:623][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.06-18.31.19:692][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.06-18.31.19:741][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.09.06-18.31.19:743][  0]LogLoad: Full Startup: 31.62 seconds (BP compile: 0.82 seconds)
+[2017.09.06-18.31.19:743][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.06-18.31.19:754][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-18.31.19:788][  0]LogContentStreaming: Texture pool size now 200 MB
+[2017.09.06-18.31.20:123][  6]LogAssetRegistry: Asset discovery search completed in 17.4891 seconds
+[2017.09.06-18.31.20:123][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.06-18.31.20:123][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2017.09.06-18.33.26:308][905]LogRenderer: Reallocating scene render targets to support 700x340 (Frame:2).
+[2017.09.06-18.33.34:314][374]LogMaterial: Missing cached shader map for material Agua_1, compiling. 
+[2017.09.06-18.33.47:080][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2017.09.06-18.33.47:080][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-18.33.47:081][450]PIE: New page: PIE session: Main_Menu (Sep 6, 2017, 7:33:47 AM)
+[2017.09.06-18.33.47:081][450]LogPlayLevel: Creating play world package: /Game/Proyecto/Menu/UEDPIE_0_Main_Menu
+[2017.09.06-18.33.47:085][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003621s)
+[2017.09.06-18.33.47:087][450]LogAIModule: Creating AISystem for world Main_Menu
+[2017.09.06-18.33.47:087][450]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2017.09.06-18.33.47:087][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Proyecto/Menu/Main_Menu.Main_Menu to /Game/Proyecto/Menu/UEDPIE_0_Main_Menu.Main_Menu (0.005781s)
+[2017.09.06-18.33.47:116][450]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.06-18.33.47:138][450]LogInit: FAudioDevice initialized.
+[2017.09.06-18.33.47:269][450]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.09.06-18.33.47:274][450]LogWorld: Bringing World /Game/Proyecto/Menu/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.09.06-13.33.47
+[2017.09.06-18.33.47:275][450]LogWorld: Bringing up level for play took: 0.002282
+[2017.09.06-18.33.47:293][450]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.09.06-18.33.47:355][450]PIE: Info Play in editor start time for /Game/Proyecto/Menu/UEDPIE_0_Main_Menu -0.539
+[2017.09.06-18.33.47:355][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2017.09.06-18.33.53:211][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2017.09.06-18.33.53:257][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2017.09.06-18.34.01:267][415]LogSavePackage: Save=198.33ms
+[2017.09.06-18.34.01:267][415]LogSavePackage: Moving '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Main_Menu1D63F5B1400E35C5FEF89799CB3245CA.tmp' to '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap'
+[2017.09.06-18.34.01:275][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap
+[2017.09.06-18.34.07:956][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.34.07:956][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:956][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.06-18.34.07:956][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc'
+[2017.09.06-18.34.07:957][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:957][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc
+[2017.09.06-18.34.07:957][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement'
+[2017.09.06-18.34.07:957][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:957][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement
+[2017.09.06-18.34.07:958][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal'
+[2017.09.06-18.34.07:958][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:958][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal
+[2017.09.06-18.34.07:958][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular'
+[2017.09.06-18.34.07:959][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:959][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular
+[2017.09.06-18.34.07:960][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.34.07:960][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:960][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.06-18.34.07:961][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc'
+[2017.09.06-18.34.07:961][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:961][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc
+[2017.09.06-18.34.07:962][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement'
+[2017.09.06-18.34.07:962][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:962][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement
+[2017.09.06-18.34.07:963][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal'
+[2017.09.06-18.34.07:963][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:963][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal
+[2017.09.06-18.34.07:964][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular'
+[2017.09.06-18.34.07:964][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:964][793]LoadErrors:Error: Error /Game/Proyecto/Terreno/Bosque_1 : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular
+[2017.09.06-18.34.07:969][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.34.07:969][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:969][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc'
+[2017.09.06-18.34.07:970][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:970][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement'
+[2017.09.06-18.34.07:970][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:971][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal'
+[2017.09.06-18.34.07:971][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:971][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular'
+[2017.09.06-18.34.07:972][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:972][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.34.07:972][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:973][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc'
+[2017.09.06-18.34.07:973][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:973][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement'
+[2017.09.06-18.34.07:974][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:974][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal'
+[2017.09.06-18.34.07:974][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:975][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular'
+[2017.09.06-18.34.07:975][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap.
+[2017.09.06-18.34.07:982][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.34.07:982][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
+[2017.09.06-18.34.07:983][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc'
+[2017.09.06-18.34.07:983][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.07:983][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement'
+[2017.09.06-18.34.07:983][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement' while loading NULL.
+[2017.09.06-18.34.07:984][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal'
+[2017.09.06-18.34.07:984][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal' while loading NULL.
+[2017.09.06-18.34.07:984][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular'
+[2017.09.06-18.34.07:984][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular' while loading NULL.
+[2017.09.06-18.34.07:985][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.34.07:985][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
+[2017.09.06-18.34.07:985][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc'
+[2017.09.06-18.34.07:986][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.07:986][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement'
+[2017.09.06-18.34.07:986][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement' while loading NULL.
+[2017.09.06-18.34.07:986][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal'
+[2017.09.06-18.34.07:987][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal' while loading NULL.
+[2017.09.06-18.34.07:987][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular'
+[2017.09.06-18.34.07:987][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular' while loading NULL.
+[2017.09.06-18.34.07:988][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.34.07:988][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
+[2017.09.06-18.34.07:988][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc'
+[2017.09.06-18.34.07:988][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.07:989][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement'
+[2017.09.06-18.34.07:989][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement' while loading NULL.
+[2017.09.06-18.34.07:989][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal'
+[2017.09.06-18.34.07:990][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal' while loading NULL.
+[2017.09.06-18.34.07:990][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular'
+[2017.09.06-18.34.07:990][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular' while loading NULL.
+[2017.09.06-18.34.07:991][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.34.07:991][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
+[2017.09.06-18.34.07:991][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc'
+[2017.09.06-18.34.07:991][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.07:992][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement'
+[2017.09.06-18.34.07:992][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement' while loading NULL.
+[2017.09.06-18.34.07:993][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal'
+[2017.09.06-18.34.07:993][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal' while loading NULL.
+[2017.09.06-18.34.07:993][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular'
+[2017.09.06-18.34.07:993][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular' while loading NULL.
+[2017.09.06-18.34.08:402][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:402][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:403][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:403][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:403][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:404][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:404][793]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.08:415][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.08:416][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:416][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:417][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:417][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:418][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:418][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.08:419][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:419][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:419][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:419][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.08:420][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:420][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.08:420][793]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.08:501][793]LogBlueprint:Warning: Compiler Warning [0200.38] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 7 Warning(s) [in 220 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.08:501][793]LogBlueprint:Warning: Compiler Warning [0200.38] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 8 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.08:501][793]LogBlueprint:Warning: Compiler Warning [0200.38] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 9 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.08:635][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal'
+[2017.09.06-18.34.08:635][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal.Grass_3004322071_69bedc5e68_o_500x500_Normal Referenced by PersistentLevel
+[2017.09.06-18.34.08:635][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Normal' while loading NULL.
+[2017.09.06-18.34.08:636][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal'
+[2017.09.06-18.34.08:636][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal.Ground_3088247128_e5ebfc738f_o_Normal Referenced by PersistentLevel
+[2017.09.06-18.34.08:636][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Normal' while loading NULL.
+[2017.09.06-18.34.08:637][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.06-18.34.08:637][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by PersistentLevel
+[2017.09.06-18.34.08:637][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
+[2017.09.06-18.34.08:637][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.06-18.34.08:637][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by PersistentLevel
+[2017.09.06-18.34.08:638][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
+[2017.09.06-18.34.08:638][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular'
+[2017.09.06-18.34.08:638][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular.Grass_3004322071_69bedc5e68_o_500x500_Specular Referenced by PersistentLevel
+[2017.09.06-18.34.08:638][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Specular' while loading NULL.
+[2017.09.06-18.34.08:639][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular'
+[2017.09.06-18.34.08:639][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular.Ground_3088247128_e5ebfc738f_o_Specular Referenced by PersistentLevel
+[2017.09.06-18.34.08:639][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Specular' while loading NULL.
+[2017.09.06-18.34.08:640][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement'
+[2017.09.06-18.34.08:640][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement.Grass_3004322071_69bedc5e68_o_500x500_Displacement Referenced by PersistentLevel
+[2017.09.06-18.34.08:640][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_Displacement' while loading NULL.
+[2017.09.06-18.34.08:640][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement'
+[2017.09.06-18.34.08:640][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement.Ground_3088247128_e5ebfc738f_o_Displacement Referenced by PersistentLevel
+[2017.09.06-18.34.08:641][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_Displacement' while loading NULL.
+[2017.09.06-18.34.08:641][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc'
+[2017.09.06-18.34.08:641][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc.Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc Referenced by PersistentLevel
+[2017.09.06-18.34.08:642][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.08:642][793]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc'
+[2017.09.06-18.34.08:642][793]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc.Ground_3088247128_e5ebfc738f_o_AmbientOcc Referenced by PersistentLevel
+[2017.09.06-18.34.08:642][793]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_AmbientOcc' while loading NULL.
+[2017.09.06-18.34.08:796][793]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.09:206][793]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.09:560][793]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.10:227][793]LogAIModule: Creating AISystem for world Bosque_1
+[2017.09.06-18.34.10:329][793]Cmd: MAP LOAD FILE="../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-18.34.10:329][793]LightingResults: New page: Lighting Build
+[2017.09.06-18.34.10:331][793]LoadErrors: New page: Loading map: Bosque_1.umap
+[2017.09.06-18.34.10:333][793]MapCheck: New page: Map Check
+[2017.09.06-18.34.10:333][793]LightingResults: New page: Lighting Build
+[2017.09.06-18.34.10:971][793]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-18.34.11:043][793]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-18.34.11:341][793]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 298.654ms to complete.
+[2017.09.06-18.34.11:344][793]LogFileHelpers: Loading map 'Bosque_1' took 1.016
+[2017.09.06-18.34.11:437][794]Cmd: UpdateLandscapeEditorData -warnings
+[2017.09.06-18.34.11:442][794]Cmd: UpdateLandscapeEditorData
+[2017.09.06-18.34.24:658][458]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.25:008][458]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.25:032][458]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.25:368][458]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.25:398][458]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.25:745][458]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.25:775][458]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.34.26:119][458]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.26:121][458]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.09.06-18.34.52:514][688]LogMaterial: 0.00 seconds spent updating 1 materials, 6 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:569][688]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:581][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:582][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:583][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:584][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:585][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:585][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:586][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:587][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:587][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:588][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:589][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:589][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:590][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:591][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:592][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:594][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:605][688]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:616][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:617][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:618][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:619][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:619][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:620][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:621][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:622][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:623][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:624][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:625][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:627][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:628][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:629][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:631][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:631][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:633][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:634][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:635][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:637][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:638][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:639][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:640][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:641][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:642][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:644][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:645][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:647][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:648][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:648][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:649][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:650][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:651][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:652][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:653][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:655][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:656][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:657][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:658][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:660][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:661][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:662][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:663][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:664][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:665][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:666][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:668][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:668][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:669][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:670][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:671][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:672][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:673][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:674][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:674][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:675][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:676][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:676][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:677][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:678][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:678][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:679][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:680][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:681][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:681][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:682][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:683][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:684][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:684][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:685][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:686][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:687][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:688][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:689][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:690][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:691][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:691][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:692][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:693][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:694][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:696][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:697][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:698][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:698][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:699][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:700][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:702][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:703][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:704][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:706][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:706][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:707][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:708][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:709][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:711][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:712][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:736][689]Cmd: UpdateLandscapeEditorData
+[2017.09.06-18.34.52:770][689]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:803][689]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:832][689]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:864][689]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.34.52:884][689]Cmd: UpdateLandscapeMIC
+[2017.09.06-18.34.52:885][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:886][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:887][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:889][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:890][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:891][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:892][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:893][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:894][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:895][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:895][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:896][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:897][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:898][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:899][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:900][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:901][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:902][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:903][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:905][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:906][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:908][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:909][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:910][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:911][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:912][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:912][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:914][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:915][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:917][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:918][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:920][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:921][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:922][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:923][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:924][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:925][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:926][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:927][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:929][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:930][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:932][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:933][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:934][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:936][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:937][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:938][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:939][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:939][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:940][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:941][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:942][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:943][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:944][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:945][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:946][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:948][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:949][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:950][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:952][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:953][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:955][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:956][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:958][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:959][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:960][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:961][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:962][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:963][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:965][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:965][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:967][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:968][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:969][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:970][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:971][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:972][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:974][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:974][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:975][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:976][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:977][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:978][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:979][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:979][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:981][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:982][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:983][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:984][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:985][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:986][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:987][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:988][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:990][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:991][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:992][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:993][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:994][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:995][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:996][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:996][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:998][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:998][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.52:999][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:000][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:001][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:002][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:003][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:005][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:006][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:007][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.53:007][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.09.06-18.34.57:157][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:157][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:158][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:158][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:159][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:160][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:160][843]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.09.06-18.34.57:172][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.57:172][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:173][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:173][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:173][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:174][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:174][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.57:175][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:176][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:176][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:176][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.57:176][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:176][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2017.09.06-18.34.57:177][843]LogBlueprint:Error: Compiler Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2017.09.06-18.34.57:722][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 7 Warning(s) [in 794 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.57:723][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 8 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.57:723][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 9 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.57:723][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 10 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.57:723][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 11 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.57:723][843]LogBlueprint:Warning: Compiler Warning [0249.60] Compile of PersistentLevel.Bosque_1 failed. 14 Fatal Issue(s) 12 Warning(s) [in 0 ms] (/Game/Proyecto/Terreno/Bosque_1.Bosque_1:PersistentLevel.Bosque_1)
+[2017.09.06-18.34.59:341][843]LogSavePackage: Save=2581.06ms
+[2017.09.06-18.34.59:341][843]LogSavePackage: Moving '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Bosque_13DE6C1F34F975CBFC9AC3FAF9F5FAB33.tmp' to '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap'
+[2017.09.06-18.34.59:363][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Terreno/Bosque_1.umap
+[2017.09.06-18.35.18:717][445]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.19:106][445]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.19:501][445]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.19:907][445]LogAIModule: Creating AISystem for world Terrain
+[2017.09.06-18.35.19:988][445]Cmd: MAP LOAD FILE="../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/V3/Terrain/Terrain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-18.35.19:988][445]LightingResults: New page: Lighting Build
+[2017.09.06-18.35.19:990][445]LoadErrors: New page: Loading map: Terrain.umap
+[2017.09.06-18.35.19:994][445]MapCheck: New page: Map Check
+[2017.09.06-18.35.19:994][445]LightingResults: New page: Lighting Build
+[2017.09.06-18.35.20:281][445]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-18.35.20:361][445]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-18.35.20:703][445]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 341.139ms to complete.
+[2017.09.06-18.35.20:705][445]LogFileHelpers: Loading map 'Terrain' took 0.723
+[2017.09.06-18.35.20:790][446]Cmd: UpdateLandscapeEditorData -warnings
+[2017.09.06-18.35.20:792][446]Cmd: UpdateLandscapeEditorData
+[2017.09.06-18.35.22:290][514]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.22:666][514]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.35.22:683][514]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.23:061][514]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.35.23:077][514]LogMaterial: Missing cached shader map for material mat_bosque, compiling. 
+[2017.09.06-18.35.23:457][514]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.09.06-18.35.23:459][514]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2017.09.06-18.35.32:700][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.35.32:700][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-18.35.32:700][942]PIE: New page: PIE session: Terrain (Sep 6, 2017, 7:35:32 AM)
+[2017.09.06-18.35.32:700][942]LogPlayLevel: Creating play world package: /Game/V3/Terrain/UEDPIE_0_Terrain
+[2017.09.06-18.35.32:818][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117627s)
+[2017.09.06-18.35.32:822][942]LogAIModule: Creating AISystem for world Terrain
+[2017.09.06-18.35.32:822][942]LogPlayLevel: PIE: World Init took: (0.003507s)
+[2017.09.06-18.35.32:822][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V3/Terrain/Terrain.Terrain to /Game/V3/Terrain/UEDPIE_0_Terrain.Terrain (0.121709s)
+[2017.09.06-18.35.32:880][942]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.06-18.35.32:907][942]LogInit: FAudioDevice initialized.
+[2017.09.06-18.35.33:049][942]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.09.06-18.35.33:068][942]LogWorld: Bringing World /Game/V3/Terrain/UEDPIE_0_Terrain.Terrain up for play (max tick rate 0) at 2017.09.06-13.35.33
+[2017.09.06-18.35.33:070][942]LogWorld: Bringing up level for play took: 0.018096
+[2017.09.06-18.35.33:098][942]PIE: Info Play in editor start time for /Game/V3/Terrain/UEDPIE_0_Terrain 1.204
+[2017.09.06-18.35.33:099][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.35.38:586][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.35.38:630][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.35.56:605][157]LogShaderCompilers:Warning: Failed to compile Material /Game/Proyecto/Agua/Agua_1.Agua_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.06-18.36.14:991][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.36.14:991][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-18.36.14:991][658]PIE: New page: PIE session: Terrain (Sep 6, 2017, 7:36:14 AM)
+[2017.09.06-18.36.14:991][658]LogPlayLevel: Creating play world package: /Game/V3/Terrain/UEDPIE_0_Terrain
+[2017.09.06-18.36.15:095][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103009s)
+[2017.09.06-18.36.15:096][658]LogAIModule: Creating AISystem for world Terrain
+[2017.09.06-18.36.15:096][658]LogPlayLevel: PIE: World Init took: (0.001690s)
+[2017.09.06-18.36.15:097][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/V3/Terrain/Terrain.Terrain to /Game/V3/Terrain/UEDPIE_0_Terrain.Terrain (0.105206s)
+[2017.09.06-18.36.15:161][658]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.06-18.36.15:184][658]LogInit: FAudioDevice initialized.
+[2017.09.06-18.36.15:302][658]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2017.09.06-18.36.15:321][658]LogWorld: Bringing World /Game/V3/Terrain/UEDPIE_0_Terrain.Terrain up for play (max tick rate 0) at 2017.09.06-13.36.15
+[2017.09.06-18.36.15:324][658]LogWorld: Bringing up level for play took: 0.019035
+[2017.09.06-18.36.15:355][658]PIE: Info Play in editor start time for /Game/V3/Terrain/UEDPIE_0_Terrain -0.539
+[2017.09.06-18.36.15:356][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.36.35:773][707]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.36.35:946][707]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel' has LevelScriptBlueprint '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain' with GeneratedClass '/Game/V3/Terrain/Terrain.Terrain_C' with ClassGeneratedBy '/Game/V3/Terrain/Terrain.Terrain:PersistentLevel.Terrain'
+[2017.09.06-18.36.43:241][958]LogSavePackage: Save=932.16ms
+[2017.09.06-18.36.43:241][958]LogSavePackage: Moving '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Terrain433ED939428F0E71945576A2787ED379.tmp' to '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/V3/Terrain/Terrain.umap'
+[2017.09.06-18.36.43:266][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/V3/Terrain/Terrain.umap
+[2017.09.06-18.38.33:834][992]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.06-18.38.34:262][993]Cmd: QUIT_EDITOR
+[2017.09.06-18.38.34:545][993]LogExit: Preparing to exit.
+[2017.09.06-18.38.35:703][993]LogExit: Editor shut down
+[2017.09.06-18.38.35:704][993]LogExit: Transaction tracking system shut down
+[2017.09.06-18.38.36:156][993]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.06-18.38.36:158][993]LogExit: Object subsystem successfully closed.
+[2017.09.06-18.38.36:188][993]LogD3D11RHI: Shutdown
+[2017.09.06-18.38.36:188][993]LogD3D11RHI: CleanupD3DDevice
+[2017.09.06-18.38.36:291][993]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.06-18.38.36:372][993]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2017.09.06-18.38.36:372][993]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2017.09.06-18.38.36:372][993]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (213)
+[2017.09.06-18.38.36:373][993]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.09.06-18.38.36:373][993]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.09.06-18.38.36:373][993]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.09.06-18.38.36:373][993]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.09.06-18.38.36:377][993]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.09.06-18.38.36:377][993]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.09.06-18.38.36:377][993]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.09.06-18.38.36:377][993]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.09.06-18.38.36:378][993]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.09.06-18.38.36:379][993]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.09.06-18.38.36:380][993]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.09.06-18.38.36:570][993]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.09.06-18.38.36:571][993]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.09.06-18.38.36:572][993]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.09.06-18.38.36:573][993]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.09.06-18.38.36:639][993]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.09.06-18.38.36:640][993]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.09.06-18.38.36:641][993]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.09.06-18.38.36:864][993]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.09.06-18.38.36:865][993]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.09.06-18.38.36:866][993]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.09.06-18.38.36:868][993]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.09.06-18.38.36:868][993]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.09.06-18.38.36:871][993]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.09.06-18.38.36:874][993]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.09.06-18.38.36:874][993]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.09.06-18.38.36:975][993]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.09.06-18.38.36:975][993]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.09.06-18.38.36:975][993]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.09.06-18.38.36:975][993]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.09.06-18.38.36:975][993]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.09.06-18.38.36:976][993]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.09.06-18.38.36:976][993]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.09.06-18.38.36:976][993]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.09.06-18.38.36:976][993]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.09.06-18.38.36:977][993]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.09.06-18.38.36:978][993]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.09.06-18.38.36:992][993]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.09.06-18.38.36:992][993]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.09.06-18.38.36:992][993]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.09.06-18.38.36:993][993]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.09.06-18.38.36:993][993]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.09.06-18.38.36:993][993]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.09.06-18.38.36:995][993]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.09.06-18.38.37:326][993]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.09.06-18.38.37:326][993]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.09.06-18.38.37:326][993]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.09.06-18.38.37:326][993]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.09.06-18.38.37:343][993]LogDerivedDataCache: Shutdown
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.09.06-18.38.37:344][993]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.09.06-18.38.37:345][993]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.09.06-18.38.37:346][993]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.09.06-18.38.37:347][993]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.09.06-18.38.41:384][993]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.09.06-18.38.41:385][993]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.09.06-18.38.41:390][993]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.09.06-18.38.41:391][993]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.09.06-18.38.41:396][993]LogExit: Exiting.
+[2017.09.06-18.38.41:450][993]Log file closed, 09/06/17 13:38:41
