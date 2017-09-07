@@ -1,9 +1,9 @@
-﻿Log file open, 09/06/17 14:08:14
+﻿Log file open, 09/06/17 19:11:50
 LogInit:Display: Running engine for game: LIF_TG
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-829210449) SRandInit(-829210445).
+LogInit:Display: RandInit(707736816) SRandInit(707736821).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.230825
+LogStats: Stats thread started at 0.234459
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,464 +44,444 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.06-19.08.14:973][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.06-19.08.14:973][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.06-19.08.15:018][  0]LogInit: Computer: ACDEC
-[2017.09.06-19.08.15:018][  0]LogInit: User: estebancarranza
-[2017.09.06-19.08.15:018][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.09.06-19.08.15:019][  0]LogInit: High frequency timer resolution =1.852018 MHz
-[2017.09.06-19.08.15:019][  0]LogMemory: Memory total: Physical=10.9GB (11GB approx)
-[2017.09.06-19.08.15:019][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.06-19.08.15:019][  0]LogMemory: Process Physical Memory: 188.79 MB used, 188.79 MB peak
-[2017.09.06-19.08.15:019][  0]LogMemory: Process Virtual Memory: 194.93 MB used, 194.93 MB peak
-[2017.09.06-19.08.15:019][  0]LogMemory: Physical Memory: 5099.48 MB used, 11210.26 MB total
-[2017.09.06-19.08.15:020][  0]LogMemory: Virtual Memory: 531.33 MB used, 134217728.00 MB total
-[2017.09.06-19.08.16:516][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.06-19.08.16:554][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R6 Graphics' (Feature Level 11_0)
-[2017.09.06-19.08.16:554][  0]LogD3D11RHI:       989/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.09.06-19.08.16:558][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.06-19.08.16:558][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.06-19.08.16:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.06-19.08.16:569][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.06-19.08.16:569][  0]LogD3D11RHI:     GPU DeviceId: 0x130a (for the marketing name, search the web for "GPU Device Id")
-[2017.09.06-19.08.16:569][  0]LogWindows: EnumDisplayDevices:
-[2017.09.06-19.08.16:570][  0]LogWindows:    0. 'AMD Radeon(TM) R6 Graphics' (P:1 D:1)
-[2017.09.06-19.08.16:570][  0]LogWindows:    1. 'AMD Radeon(TM) R6 Graphics' (P:0 D:1)
-[2017.09.06-19.08.16:575][  0]LogWindows:    2. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
-[2017.09.06-19.08.16:576][  0]LogWindows:    3. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
-[2017.09.06-19.08.16:577][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.09.06-19.08.16:577][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R6 Graphics
-[2017.09.06-19.08.16:577][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 16.12.2 (internal:21.19.407.0, unified:21.19.407.0)
-[2017.09.06-19.08.16:577][  0]LogD3D11RHI:      Driver Date: 12-23-2016
-[2017.09.06-19.08.16:577][  0]LogRHI: Texture pool is 692 MB (70% of 989 MB)
-[2017.09.06-19.08.16:599][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2017.09.06-19.08.16:617][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2017.09.06-19.08.16:618][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Intermediate/Shaders/WorkingDirectory/7624/).
-[2017.09.06-19.08.16:618][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ESTEBA~1.CAR/AppData/Local/Temp/UnrealShaderWorkingDir/DD4FBE644055DD5FB15943AD4AE160ED/'.
-[2017.09.06-19.08.16:618][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.06-19.08.19:740][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.06-19.08.19:770][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.06-19.08.19:803][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.06-19.08.19:835][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.06-19.08.19:868][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.06-19.08.19:897][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.06-19.08.19:923][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.06-19.08.19:949][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.06-19.08.19:973][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.06-19.08.20:000][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.06-19.08.20:026][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.06-19.08.20:078][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.06-19.08.20:078][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.06-19.08.20:081][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.06-19.08.20:128][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.06-19.08.20:152][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.06-19.08.20:180][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.06-19.08.20:203][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.06-19.08.20:235][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.06-19.08.20:235][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.06-19.08.20:528][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.06-19.08.20:686][  0]LogDerivedDataCache: Loaded boot cache 0.16s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.09.06-19.08.20:687][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2017.09.06-19.08.20:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.06-19.08.20:687][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.06-19.08.20:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.06-19.08.20:687][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.06-19.08.20:731][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.06-19.08.20:748][  0]LogDerivedDataCache: Using Local data cache path C:/Users/esteban.carranza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.06-19.08.21:290][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.06-19.08.21:292][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.06-19.08.21:743][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.09.06-19.08.21:743][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.06-19.08.21:743][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.09.06-19.08.22:458][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
-[2017.09.06-19.08.22:533][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.060044 seconds
-[2017.09.06-19.08.22:553][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2017.09.06-19.08.22:553][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2017.09.06-19.08.22:553][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.06-19.08.22:589][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.06-19.08.23:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.06-19.08.23:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.06-19.08.25:851][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.06-19.08.26:497][  0]SourceControl: Info Source control is disabled
-[2017.09.06-19.08.26:500][  0]SourceControl: Info Source control is disabled
-[2017.09.06-19.08.26:536][  0]SourceControl: Info Source control is disabled
-[2017.09.06-19.08.26:586][  0]SourceControl: Info Source control is disabled
-[2017.09.06-19.08.27:441][  0]LogEngine: Initializing Engine...
-[2017.09.06-19.08.27:444][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.09.06-19.08.27:447][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.09.06-19.08.27:864][  0]LogAIModule: Creating AISystem for world NewWorld
-[2017.09.06-19.08.27:875][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.06-19.08.27:927][  0]LogInit: FAudioDevice initialized.
-[2017.09.06-19.08.28:025][  0]LogDerivedDataCache: Saved boot cache 0.10s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.09.06-19.08.28:049][  0]LogInit: Texture streaming: Enabled
-[2017.09.06-19.08.28:157][  0]LogInit: Transaction tracking system initialized
-[2017.09.06-19.08.28:265][  0]BlueprintLog: New page: Editor Load
-[2017.09.06-19.08.28:638][  0]LocalizationService: Info Localization service is disabled
-[2017.09.06-19.08.30:276][  0]LogConsoleResponse:Display: 
-[2017.09.06-19.08.30:542][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2017.09.06-19.08.30:542][  0]LogCook:Display: Mobile HDR setting 1
-[2017.09.06-19.08.30:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/' took 0.02s
-[2017.09.06-19.08.30:929][  0]SourceControl: Info Source control is disabled
-[2017.09.06-19.08.30:930][  0]Cmd: MAP LOAD FILE="../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.06-19.08.30:931][  0]LightingResults: New page: Lighting Build
-[2017.09.06-19.08.30:943][  0]MapCheck: New page: Map Check
-[2017.09.06-19.08.30:943][  0]LightingResults: New page: Lighting Build
-[2017.09.06-19.08.33:346][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:347][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:347][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
-[2017.09.06-19.08.33:347][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:348][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:348][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
-[2017.09.06-19.08.33:348][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:349][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:349][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
-[2017.09.06-19.08.33:368][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:368][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:368][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
-[2017.09.06-19.08.33:369][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:369][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:369][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
-[2017.09.06-19.08.33:370][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:371][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
-[2017.09.06-19.08.33:371][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
-[2017.09.06-19.08.33:378][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:379][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:379][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
-[2017.09.06-19.08.33:379][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:380][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:380][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
-[2017.09.06-19.08.33:380][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:381][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:381][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
-[2017.09.06-19.08.33:381][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:382][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:382][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
-[2017.09.06-19.08.33:382][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:383][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:383][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
-[2017.09.06-19.08.33:383][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:384][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:384][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
-[2017.09.06-19.08.33:437][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:437][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
-[2017.09.06-19.08.33:442][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:442][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
-[2017.09.06-19.08.33:442][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
-[2017.09.06-19.08.33:447][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:447][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
-[2017.09.06-19.08.33:448][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:448][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
-[2017.09.06-19.08.33:448][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
-[2017.09.06-19.08.33:452][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:453][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
-[2017.09.06-19.08.33:453][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
-[2017.09.06-19.08.33:453][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
-[2017.09.06-19.08.33:453][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
-[2017.09.06-19.08.33:955][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
-[2017.09.06-19.08.33:955][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
-[2017.09.06-19.08.33:956][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading NULL.
-[2017.09.06-19.08.33:956][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
-[2017.09.06-19.08.33:959][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
-[2017.09.06-19.08.33:960][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
-[2017.09.06-19.08.33:961][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
-[2017.09.06-19.08.33:961][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
-[2017.09.06-19.08.33:962][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
-[2017.09.06-19.08.33:962][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
-[2017.09.06-19.08.33:963][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
-[2017.09.06-19.08.33:963][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
-[2017.09.06-19.08.35:228][  0]LogAIModule: Creating AISystem for world Main_Menu
-[2017.09.06-19.08.35:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.06-19.08.35:234][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.06-19.08.35:649][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 415.072ms to complete.
-[2017.09.06-19.08.35:650][  0]LogFileHelpers: Loading map 'Main_Menu' took 4.721
-[2017.09.06-19.08.36:105][  0]LogCollectionManager: Loaded 0 collections in 0.013658 seconds
-[2017.09.06-19.08.36:214][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Collections/' took 0.01s
-[2017.09.06-19.08.36:214][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Developers/estebancarranza/Collections/' took 0.02s
-[2017.09.06-19.08.36:214][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Collections/' took 0.01s
-[2017.09.06-19.08.36:214][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000010 seconds
-[2017.09.06-19.08.36:259][  0]LogContentBrowser: Native class hierarchy populated in 0.0442 seconds. Added 2047 classes and 369 folders.
-[2017.09.06-19.08.36:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.06-19.08.36:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.06-19.08.36:290][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0021 seconds. Added 12 classes and 0 folders.
-[2017.09.06-19.08.36:324][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
-[2017.09.06-19.08.36:614][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2017.09.06-19.08.36:633][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2017.09.06-19.08.36:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.06-19.08.36:962][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.09.06-19.08.37:013][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2017.09.06-19.08.37:014][  0]LogLoad: Full Startup: 25.14 seconds (BP compile: 1.14 seconds)
-[2017.09.06-19.08.37:015][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.06-19.08.37:026][  0]LogOcInput: OculusInput pre-init called
-[2017.09.06-19.08.37:055][  0]LogContentStreaming: Texture pool size now 200 MB
-[2017.09.06-19.08.37:417][  6]LogAssetRegistry: Asset discovery search completed in 14.9810 seconds
-[2017.09.06-19.08.37:417][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.06-19.08.37:417][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
-[2017.09.06-19.09.05:188][186]LogRenderer: Reallocating scene render targets to support 700x340 (Frame:2).
-[2017.09.06-19.10.31:659][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.09.06-19.10.31:659][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.06-19.10.31:660][472]PIE: New page: PIE session: Main_Menu (Sep 6, 2017, 8:10:31 AM)
-[2017.09.06-19.10.31:660][472]LogPlayLevel: Creating play world package: /Game/Proyecto/Menu/UEDPIE_0_Main_Menu
-[2017.09.06-19.10.31:666][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005976s)
-[2017.09.06-19.10.31:669][472]LogAIModule: Creating AISystem for world Main_Menu
-[2017.09.06-19.10.31:669][472]LogPlayLevel: PIE: World Init took: (0.002626s)
-[2017.09.06-19.10.31:670][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Proyecto/Menu/Main_Menu.Main_Menu to /Game/Proyecto/Menu/UEDPIE_0_Main_Menu.Main_Menu (0.009289s)
-[2017.09.06-19.10.31:820][472]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.06-19.10.31:857][472]LogInit: FAudioDevice initialized.
-[2017.09.06-19.10.32:025][472]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.09.06-19.10.32:032][472]LogWorld: Bringing World /Game/Proyecto/Menu/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.09.06-14.10.32
-[2017.09.06-19.10.32:033][472]LogWorld: Bringing up level for play took: 0.003372
-[2017.09.06-19.10.32:056][472]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
-[2017.09.06-19.10.32:142][472]PIE: Info Play in editor start time for /Game/Proyecto/Menu/UEDPIE_0_Main_Menu 0.249
-[2017.09.06-19.10.32:143][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.09.06-19.10.33:890][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.09.06-19.10.33:944][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Proyecto/Menu/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Proyecto/Menu/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.09.06-19.10.45:460][124]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0018 seconds. Added 1 classes and 3 folders.
-[2017.09.06-19.11.33:938][584]MapCheck: New page: Map Check
-[2017.09.06-19.11.33:996][584]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.09.06-19.11.33:996][584]MapCheck: New page: Main_Menu - Sep 6, 2017, 8:11:33 AM
-[2017.09.06-19.11.34:396][584]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 399.247ms to complete.
-[2017.09.06-19.11.34:421][584]LogEditorBuildUtils: Build time 0:00
-[2017.09.06-19.11.53:758][556]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
-[2017.09.06-19.11.53:758][556]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
-[2017.09.06-19.11.56:295][686]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
-[2017.09.06-19.11.56:295][686]LogText:Warning: Failed to parse argument "GameStateName" as a number (using "0" as a fallback). Please check your format string for errors: "GameState: {GameStateName}".
-[2017.09.06-19.11.56:295][686]LogText:Warning: Failed to parse argument "PawnName" as a number (using "0" as a fallback). Please check your format string for errors: "Pawn: Edit {PawnName}".
-[2017.09.06-19.11.56:296][686]LogText:Warning: Failed to parse argument "HUDName" as a number (using "0" as a fallback). Please check your format string for errors: "HUD: Edit {HUDName}".
-[2017.09.06-19.11.56:296][686]LogText:Warning: Failed to parse argument "PlayerControllerName" as a number (using "0" as a fallback). Please check your format string for errors: "PlayerController: {PlayerControllerName}".
-[2017.09.06-19.11.58:571][793]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.09.06-19.11.58:656][793]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} parent class".
-[2017.09.06-19.12.02:306][953]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} parent class".
-[2017.09.06-19.12.03:978][ 26]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} class".
-[2017.09.06-19.12.06:310][125]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
-[2017.09.06-19.12.08:104][204]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
-[2017.09.06-19.12.09:549][269]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
-[2017.09.06-19.12.14:446][462]LogSavePackage: Save=273.43ms
-[2017.09.06-19.12.14:447][462]LogSavePackage: Moving '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Main_MenuA514731A42B0A9BC678B68955BCA5B9F.tmp' to '../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap'
-[2017.09.06-19.12.14:491][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap
-[2017.09.06-19.12.16:719][570]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.09.06-19.12.17:113][571]Cmd: QUIT_EDITOR
-[2017.09.06-19.12.17:487][571]LogExit: Preparing to exit.
-[2017.09.06-19.12.18:200][571]LogExit: Editor shut down
-[2017.09.06-19.12.18:202][571]LogExit: Transaction tracking system shut down
-[2017.09.06-19.12.18:826][571]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.06-19.12.18:826][571]LogExit: Object subsystem successfully closed.
-[2017.09.06-19.12.18:857][571]LogD3D11RHI: Shutdown
-[2017.09.06-19.12.18:857][571]LogD3D11RHI: CleanupD3DDevice
-[2017.09.06-19.12.18:964][571]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module WorldBrowser (216)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (213)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2017.09.06-19.12.19:098][571]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2017.09.06-19.12.19:103][571]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2017.09.06-19.12.19:103][571]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2017.09.06-19.12.19:103][571]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2017.09.06-19.12.19:104][571]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2017.09.06-19.12.19:104][571]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2017.09.06-19.12.19:104][571]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2017.09.06-19.12.19:105][571]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2017.09.06-19.12.19:106][571]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2017.09.06-19.12.19:107][571]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2017.09.06-19.12.19:107][571]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2017.09.06-19.12.19:107][571]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2017.09.06-19.12.19:107][571]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2017.09.06-19.12.19:107][571]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2017.09.06-19.12.19:925][571]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2017.09.06-19.12.19:926][571]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2017.09.06-19.12.19:927][571]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2017.09.06-19.12.19:928][571]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2017.09.06-19.12.19:994][571]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2017.09.06-19.12.19:995][571]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2017.09.06-19.12.19:996][571]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2017.09.06-19.12.19:996][571]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2017.09.06-19.12.19:996][571]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2017.09.06-19.12.20:000][571]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2017.09.06-19.12.20:001][571]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2017.09.06-19.12.20:084][571]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2017.09.06-19.12.20:084][571]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2017.09.06-19.12.20:085][571]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2017.09.06-19.12.20:086][571]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2017.09.06-19.12.20:087][571]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2017.09.06-19.12.20:087][571]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2017.09.06-19.12.20:087][571]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2017.09.06-19.12.20:089][571]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2017.09.06-19.12.20:089][571]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2017.09.06-19.12.20:092][571]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2017.09.06-19.12.20:095][571]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2017.09.06-19.12.20:095][571]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module Media (90)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2017.09.06-19.12.20:196][571]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2017.09.06-19.12.20:197][571]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2017.09.06-19.12.20:206][571]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2017.09.06-19.12.20:207][571]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2017.09.06-19.12.20:208][571]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2017.09.06-19.12.20:208][571]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2017.09.06-19.12.20:221][571]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2017.09.06-19.12.20:222][571]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2017.09.06-19.12.20:222][571]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2017.09.06-19.12.20:222][571]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2017.09.06-19.12.20:222][571]LogModuleManager: Shutting down and abandoning module Core (64)
-[2017.09.06-19.12.20:222][571]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2017.09.06-19.12.20:224][571]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2017.09.06-19.12.20:456][571]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2017.09.06-19.12.20:456][571]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2017.09.06-19.12.20:456][571]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2017.09.06-19.12.20:456][571]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2017.09.06-19.12.20:466][571]LogDerivedDataCache: Shutdown
-[2017.09.06-19.12.20:466][571]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2017.09.06-19.12.20:466][571]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2017.09.06-19.12.20:467][571]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2017.09.06-19.12.20:468][571]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2017.09.06-19.12.20:469][571]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.09.06-19.12.21:974][571]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.09.06-19.12.21:975][571]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.09.06-19.12.21:979][571]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.09.06-19.12.21:984][571]LogExit: Exiting.
-[2017.09.06-19.12.22:042][571]Log file closed, 09/06/17 14:12:22
+[2017.09.07-00.11.50:579][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-00.11.50:580][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.07-00.11.50:633][  0]LogInit: Computer: ACDEC
+[2017.09.07-00.11.50:633][  0]LogInit: User: estebancarranza
+[2017.09.07-00.11.50:633][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.09.07-00.11.50:633][  0]LogInit: High frequency timer resolution =1.852018 MHz
+[2017.09.07-00.11.50:634][  0]LogMemory: Memory total: Physical=10.9GB (11GB approx)
+[2017.09.07-00.11.50:634][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.07-00.11.50:634][  0]LogMemory: Process Physical Memory: 188.77 MB used, 188.77 MB peak
+[2017.09.07-00.11.50:634][  0]LogMemory: Process Virtual Memory: 194.86 MB used, 194.86 MB peak
+[2017.09.07-00.11.50:634][  0]LogMemory: Physical Memory: 3667.92 MB used, 11210.26 MB total
+[2017.09.07-00.11.50:634][  0]LogMemory: Virtual Memory: 531.33 MB used, 134217728.00 MB total
+[2017.09.07-00.11.52:419][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.07-00.11.52:495][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R6 Graphics' (Feature Level 11_0)
+[2017.09.07-00.11.52:495][  0]LogD3D11RHI:       989/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.09.07-00.11.52:501][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.07-00.11.52:501][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.07-00.11.52:501][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.07-00.11.52:517][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.07-00.11.52:517][  0]LogD3D11RHI:     GPU DeviceId: 0x130a (for the marketing name, search the web for "GPU Device Id")
+[2017.09.07-00.11.52:517][  0]LogWindows: EnumDisplayDevices:
+[2017.09.07-00.11.52:518][  0]LogWindows:    0. 'AMD Radeon(TM) R6 Graphics' (P:1 D:1)
+[2017.09.07-00.11.52:519][  0]LogWindows:    1. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2017.09.07-00.11.52:520][  0]LogWindows:    2. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2017.09.07-00.11.52:522][  0]LogWindows:    3. 'AMD Radeon(TM) R6 Graphics' (P:0 D:0)
+[2017.09.07-00.11.52:523][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.07-00.11.52:523][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R6 Graphics
+[2017.09.07-00.11.52:523][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 16.12.2 (internal:21.19.407.0, unified:21.19.407.0)
+[2017.09.07-00.11.52:523][  0]LogD3D11RHI:      Driver Date: 12-23-2016
+[2017.09.07-00.11.52:523][  0]LogRHI: Texture pool is 692 MB (70% of 989 MB)
+[2017.09.07-00.11.52:557][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2017.09.07-00.11.52:580][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.09.07-00.11.52:581][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Intermediate/Shaders/WorkingDirectory/3676/).
+[2017.09.07-00.11.52:582][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ESTEBA~1.CAR/AppData/Local/Temp/UnrealShaderWorkingDir/2C2239984E79720B9D1382AE8DFF3C2D/'.
+[2017.09.07-00.11.52:582][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.07-00.11.57:222][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.07-00.11.57:275][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.07-00.11.57:325][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.07-00.11.57:378][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.07-00.11.57:430][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.07-00.11.57:475][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.07-00.11.57:519][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.07-00.11.57:563][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.07-00.11.57:606][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.07-00.11.57:650][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.07-00.11.57:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.07-00.11.57:782][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.07-00.11.57:782][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.07-00.11.57:788][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.07-00.11.57:860][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.07-00.11.57:902][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.07-00.11.57:945][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.07-00.11.57:986][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.07-00.11.58:031][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.07-00.11.58:031][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.07-00.11.58:560][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.07-00.11.58:815][  0]LogDerivedDataCache: Loaded boot cache 0.25s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.09.07-00.11.58:817][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.09.07-00.11.58:818][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.07-00.11.58:818][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.07-00.11.58:818][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.07-00.11.58:818][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.07-00.11.58:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.07-00.11.58:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/esteban.carranza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.07-00.11.59:934][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.07-00.11.59:937][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.07-00.12.00:751][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.09.07-00.12.00:752][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.07-00.12.00:752][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.09.07-00.12.02:007][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.09.07-00.12.02:193][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.159028 seconds
+[2017.09.07-00.12.02:220][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.09.07-00.12.02:220][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.09.07-00.12.02:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.07-00.12.02:285][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.07-00.12.03:192][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-00.12.03:192][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.07-00.12.06:328][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.07-00.12.07:260][  0]SourceControl: Info Source control is disabled
+[2017.09.07-00.12.07:264][  0]SourceControl: Info Source control is disabled
+[2017.09.07-00.12.07:320][  0]SourceControl: Info Source control is disabled
+[2017.09.07-00.12.07:376][  0]SourceControl: Info Source control is disabled
+[2017.09.07-00.12.08:655][  0]LogEngine: Initializing Engine...
+[2017.09.07-00.12.08:660][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.09.07-00.12.08:664][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.09.07-00.12.09:331][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.09.07-00.12.09:351][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.07-00.12.09:435][  0]LogInit: FAudioDevice initialized.
+[2017.09.07-00.12.09:563][  0]LogDerivedDataCache: Saved boot cache 0.13s 48MB C:/Users/esteban.carranza/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.09.07-00.12.09:592][  0]LogInit: Texture streaming: Enabled
+[2017.09.07-00.12.09:734][  0]LogInit: Transaction tracking system initialized
+[2017.09.07-00.12.09:927][  0]BlueprintLog: New page: Editor Load
+[2017.09.07-00.12.10:475][  0]LocalizationService: Info Localization service is disabled
+[2017.09.07-00.12.12:744][  0]LogConsoleResponse:Display: 
+[2017.09.07-00.12.13:190][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.09.07-00.12.13:190][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.07-00.12.13:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/' took 0.04s
+[2017.09.07-00.12.13:759][  0]SourceControl: Info Source control is disabled
+[2017.09.07-00.12.13:760][  0]Cmd: MAP LOAD FILE="../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.07-00.12.13:763][  0]LightingResults: New page: Lighting Build
+[2017.09.07-00.12.13:778][  0]MapCheck: New page: Map Check
+[2017.09.07-00.12.13:778][  0]LightingResults: New page: Lighting Build
+[2017.09.07-00.12.16:568][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.16:568][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:568][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.07-00.12.16:569][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.16:569][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:569][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.07-00.12.16:570][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.16:570][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:570][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.07-00.12.16:609][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.16:609][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:609][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.07-00.12.16:610][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.16:610][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:610][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.07-00.12.16:611][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.16:611][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/MenuPrincipal.uasset.
+[2017.09.07-00.12.16:611][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/MenuPrincipal : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.07-00.12.16:619][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.16:619][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:620][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.07-00.12.16:620][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.16:621][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:621][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.07-00.12.16:622][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.16:622][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:622][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.07-00.12.16:623][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.16:623][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:623][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.07-00.12.16:624][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.16:624][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:624][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.07-00.12.16:625][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.16:625][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:625][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.07-00.12.16:681][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.16:682][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.07-00.12.16:682][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:682][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.07-00.12.16:682][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture
+[2017.09.07-00.12.16:686][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.16:686][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.07-00.12.16:687][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:687][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.07-00.12.16:687][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500
+[2017.09.07-00.12.16:691][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.16:691][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.07-00.12.16:691][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading ../../../../../../Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Proyecto/Menu/Main_Menu.umap.
+[2017.09.07-00.12.16:692][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.07-00.12.16:692][  0]LoadErrors:Error: Error /Game/Proyecto/Menu/Main_Menu : Can't find file for asset. /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500
+[2017.09.07-00.12.17:182][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture'
+[2017.09.07-00.12.17:182][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.07-00.12.17:182][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture' while loading NULL.
+[2017.09.07-00.12.17:183][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Playground_Ground_Cover_Texture_500x500/Playground_Ground_Cover_Texture.Playground_Ground_Cover_Texture Referenced by Image_0
+[2017.09.07-00.12.17:186][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500'
+[2017.09.07-00.12.17:186][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.07-00.12.17:187][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500' while loading NULL.
+[2017.09.07-00.12.17:187][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Ground_38f_500x500/Ground_3088247128_e5ebfc738f_o_500x500.Ground_3088247128_e5ebfc738f_o_500x500 Referenced by Image_80
+[2017.09.07-00.12.17:189][  0]LogLinker:Warning: Can't find file '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500'
+[2017.09.07-00.12.17:189][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.07-00.12.17:190][  0]LogLinker:Warning: Can't find file for asset '/Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500' while loading NULL.
+[2017.09.07-00.12.17:190][  0]LoadErrors: Info Failed to load /Game/Proyecto/imagenes_con_licencia/Grass_e68_500x500/Grass_3004322071_69bedc5e68_o_500x500.Grass_3004322071_69bedc5e68_o_500x500 Referenced by Image_83
+[2017.09.07-00.12.18:552][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2017.09.07-00.12.18:556][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.07-00.12.18:558][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.07-00.12.18:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 388.167ms to complete.
+[2017.09.07-00.12.18:948][  0]LogFileHelpers: Loading map 'Main_Menu' took 5.188
+[2017.09.07-00.12.19:322][  0]LogCollectionManager: Loaded 0 collections in 0.014659 seconds
+[2017.09.07-00.12.19:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Saved/Collections/' took 0.01s
+[2017.09.07-00.12.19:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Developers/estebancarranza/Collections/' took 0.01s
+[2017.09.07-00.12.19:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/esteban.carranza/Twicky_LIF_The_Game/SharePoint/LIF/Lif/LIF_TG/Content/Collections/' took 0.01s
+[2017.09.07-00.12.19:410][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000010 seconds
+[2017.09.07-00.12.19:449][  0]LogContentBrowser: Native class hierarchy populated in 0.0387 seconds. Added 2047 classes and 369 folders.
+[2017.09.07-00.12.19:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.07-00.12.19:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.07-00.12.19:472][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0020 seconds. Added 12 classes and 0 folders.
+[2017.09.07-00.12.19:503][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.09.07-00.12.19:733][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.09.07-00.12.19:754][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.09.07-00.12.20:037][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.07-00.12.20:056][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.07-00.12.20:106][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.09.07-00.12.20:107][  0]LogLoad: Full Startup: 33.09 seconds (BP compile: 1.24 seconds)
+[2017.09.07-00.12.20:107][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.07-00.12.20:126][  0]LogOcInput: OculusInput pre-init called
+[2017.09.07-00.12.20:158][  0]LogContentStreaming: Texture pool size now 200 MB
+[2017.09.07-00.12.20:502][  6]LogAssetRegistry: Asset discovery search completed in 18.5203 seconds
+[2017.09.07-00.12.20:502][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.09.07-00.12.20:502][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
+[2017.09.07-00.12.31:421][626]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.07-00.12.37:078][626]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.514 s
+[2017.09.07-00.12.37:078][626]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TextureRHI [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11RenderTarget.cpp] [Line: 927]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:327]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:451]
+UE4Editor-D3D11RHI.dll!FD3D11DynamicRHI::RHIReadSurfaceData() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\windows\d3d11rhi\private\d3d11rendertarget.cpp:927]
+UE4Editor-RHI.dll!FRHICommandListImmediate::ReadSurfaceData() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\rhi\public\rhicommandlist.h:2705]
+UE4Editor-Engine.dll!TGraphTask<`FRenderTarget::ReadPixels'::`2'::EURCMacro_ReadSurfaceCommand>::ExecuteTask() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:999]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:932]
+UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+UE4Editor-RenderCore.dll!RenderingThreadMain() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:319]
+UE4Editor-RenderCore.dll!FRenderingThread::Run() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\rendercore\private\renderingthread.cpp:440]
+UE4Editor-Core.dll!FRunnableThreadWin::Run() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:74]
+UE4Editor-Core.dll!FRunnableThreadWin::GuardedRun() [d:\build\++ue4+release-4.12+compile\sync\engine\source\runtime\core\private\windows\windowsrunnablethread.cpp:31]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2017.09.07-00.12.37:078][626]LogStats:                SubmitErrorReport -  0.000 s
+[2017.09.07-00.12.38:359][626]LogStats:                    SendNewReport -  1.281 s
+[2017.09.07-00.12.38:359][626]LogStats:             FDebug::EnsureFailed -  6.796 s
+[2017.09.07-00.12.38:557][627]Cmd: QUIT_EDITOR
+[2017.09.07-00.12.38:834][627]LogExit: Preparing to exit.
+[2017.09.07-00.12.39:375][627]LogExit: Editor shut down
+[2017.09.07-00.12.39:376][627]LogExit: Transaction tracking system shut down
+[2017.09.07-00.12.39:955][627]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.07-00.12.39:956][627]LogExit: Object subsystem successfully closed.
+[2017.09.07-00.12.39:996][627]LogD3D11RHI: Shutdown
+[2017.09.07-00.12.39:996][627]LogD3D11RHI: CleanupD3DDevice
+[2017.09.07-00.12.40:055][627]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.07-00.12.40:154][627]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.09.07-00.12.40:154][627]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.09.07-00.12.40:154][627]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.09.07-00.12.40:154][627]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.09.07-00.12.40:154][627]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.09.07-00.12.40:158][627]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.09.07-00.12.40:158][627]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.09.07-00.12.40:158][627]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.09.07-00.12.40:159][627]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.09.07-00.12.40:159][627]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.09.07-00.12.40:159][627]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.09.07-00.12.40:160][627]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.09.07-00.12.40:161][627]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.09.07-00.12.40:162][627]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.09.07-00.12.40:162][627]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.09.07-00.12.40:162][627]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.09.07-00.12.40:162][627]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.09.07-00.12.40:163][627]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.09.07-00.12.40:163][627]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.09.07-00.12.41:141][627]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.09.07-00.12.41:142][627]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.09.07-00.12.41:161][627]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.09.07-00.12.41:162][627]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.09.07-00.12.41:162][627]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.09.07-00.12.41:163][627]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.09.07-00.12.41:163][627]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.09.07-00.12.41:163][627]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.09.07-00.12.41:163][627]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.09.07-00.12.41:163][627]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.09.07-00.12.41:164][627]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.09.07-00.12.41:164][627]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.09.07-00.12.41:165][627]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.09.07-00.12.41:166][627]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.09.07-00.12.41:315][627]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.09.07-00.12.41:316][627]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.09.07-00.12.41:316][627]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.09.07-00.12.41:316][627]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.09.07-00.12.41:316][627]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.09.07-00.12.41:316][627]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.09.07-00.12.41:317][627]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.09.07-00.12.41:378][627]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.09.07-00.12.41:379][627]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.09.07-00.12.41:379][627]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.09.07-00.12.41:379][627]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.09.07-00.12.41:380][627]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.09.07-00.12.41:381][627]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.09.07-00.12.41:381][627]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.09.07-00.12.41:381][627]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.09.07-00.12.41:381][627]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.09.07-00.12.41:381][627]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.09.07-00.12.41:382][627]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.09.07-00.12.41:383][627]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.09.07-00.12.41:383][627]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.09.07-00.12.41:383][627]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.09.07-00.12.41:384][627]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.09.07-00.12.41:384][627]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.09.07-00.12.41:384][627]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.09.07-00.12.41:384][627]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.09.07-00.12.41:387][627]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.09.07-00.12.41:388][627]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.09.07-00.12.41:392][627]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.09.07-00.12.41:396][627]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.09.07-00.12.41:396][627]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.09.07-00.12.41:497][627]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.09.07-00.12.41:497][627]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.09.07-00.12.41:497][627]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.09.07-00.12.41:497][627]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.09.07-00.12.41:497][627]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.09.07-00.12.41:498][627]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.09.07-00.12.41:499][627]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.09.07-00.12.41:500][627]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.09.07-00.12.41:500][627]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.09.07-00.12.41:500][627]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.09.07-00.12.41:500][627]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.09.07-00.12.41:515][627]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.09.07-00.12.41:516][627]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.09.07-00.12.41:516][627]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.09.07-00.12.41:516][627]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.09.07-00.12.41:516][627]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.09.07-00.12.41:516][627]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.09.07-00.12.41:519][627]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.09.07-00.12.41:820][627]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.09.07-00.12.41:820][627]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.09.07-00.12.41:820][627]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.09.07-00.12.41:820][627]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.09.07-00.12.42:138][627]LogDerivedDataCache: Shutdown
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.09.07-00.12.42:138][627]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.09.07-00.12.42:139][627]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.09.07-00.12.42:140][627]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.09.07-00.12.45:165][627]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.09.07-00.12.45:165][627]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.09.07-00.12.45:165][627]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.09.07-00.12.45:165][627]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.09.07-00.12.45:166][627]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.09.07-00.12.45:166][627]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.09.07-00.12.45:166][627]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.09.07-00.12.45:173][627]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.09.07-00.12.45:174][627]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.09.07-00.12.45:178][627]LogExit: Exiting.
+[2017.09.07-00.12.45:183][627]Log file closed, 09/06/17 19:12:45
